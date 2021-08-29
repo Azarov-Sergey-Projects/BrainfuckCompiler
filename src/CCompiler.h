@@ -6,9 +6,10 @@
 class CCompiler
 {
 public:
-	CCompiler();                                           //using to put fill comands by default
+	CCompiler();                                           //using to  fill data by default
 	void readInstructionsFromFile(const std::string& fileName);
-	void interpretFunctions();
+	void compileInstructions();
+	void setInstructions(const std::string& inputInstructions);
 private:
 	std::array<char,30000> data;                           //in default Brainfuck by Muller used 1 byte with 30000 cells
 	std::string instructions;                              //here we will save our commands from file

@@ -19,7 +19,7 @@ void CCompiler::readInstructionsFromFile(const std::string& fileName)
     }
 }
 
-void CCompiler::interpretFunctions()
+void CCompiler::compileInstructions()
 {
     std::string::iterator f=instructions.begin();
     while (f!=instructions.end())
@@ -98,4 +98,10 @@ void CCompiler::interpretFunctions()
 
     if (!StackForBraces.empty())
         throw std::runtime_error("Found a '[' that did not have a matching ']'!");
+}
+
+
+void CCompiler::setInstructions(const std::string& instructions)
+{
+    this->instructions = instructions;
 }

@@ -15,15 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BrainfuckCompiler.cpp">
+    <ClCompile Include="..\src\BrainfuckCompiler.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="CCompiler.cpp">
+    <ClCompile Include="..\src\CCompiler.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CCompiler.h">
+    <ClInclude Include="..\src\CCompiler.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
