@@ -2,12 +2,32 @@
 //
 
 #include <iostream>
+#include <string>
 
-int main()
+
+
+int main(int argc, char** agrv)
 {
-    std::cout << "Hello World!\n";
+    std::string inputFileName;
+    if (argc != 2)
+    {
+        std::cout << "Input File Name==HelloWorld.txt" << std::endl 
+            << "Its Default File Name" << std::endl;
+        inputFileName = "HelloWorld.txt";
+    }
+    else
+    {
+        try
+        {
+            inputFileName = __argv[1];
+        }
+        catch (const std::exception& e)
+        {
+            std::cout << std::endl << e.what() << std::endl;
+        }
+    }
+    return 0;
 }
-
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
 // Отладка программы: F5 или меню "Отладка" > "Запустить отладку"
 

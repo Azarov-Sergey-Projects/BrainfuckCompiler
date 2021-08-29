@@ -141,6 +141,9 @@
   <ItemGroup>
     <ClCompile Include="BrainfuckCompiler.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CCompiler.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
