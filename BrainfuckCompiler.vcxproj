@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="BrainfuckCompiler.cpp" />
+    <ClCompile Include="CCompiler.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CCompiler.h" />
