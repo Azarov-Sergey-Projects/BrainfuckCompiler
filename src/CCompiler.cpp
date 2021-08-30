@@ -48,7 +48,7 @@ void CCompiler::compileInstructions()
         }
         case '.':
         {
-            std::cout << char(*dataIterator);
+            std::cout << static_cast<char>(*dataIterator);
             break;
         }
         case '[':
