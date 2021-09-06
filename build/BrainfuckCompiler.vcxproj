@@ -19,11 +19,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\src\Brainfuck.cpp" />
     <ClCompile Include="..\src\BrainfuckCompiler.cpp" />
-    <ClCompile Include="..\src\CCompiler.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\src\CCompiler.h" />
+    <ClInclude Include="..\src\BrainFuckMainClass.h" />
+    <ClInclude Include="..\src\CInterpretator.h" />
+    <ClInclude Include="..\src\IInterpretator.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

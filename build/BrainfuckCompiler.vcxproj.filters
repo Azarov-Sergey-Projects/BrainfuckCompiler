@@ -18,12 +18,18 @@
     <ClCompile Include="..\src\BrainfuckCompiler.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="..\src\CCompiler.cpp">
+    <ClCompile Include="..\src\Brainfuck.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\src\CCompiler.h">
+    <ClInclude Include="..\src\IInterpretator.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\BrainFuckMainClass.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\CInterpretator.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
